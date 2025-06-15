@@ -20,7 +20,7 @@ class LocatorProvider {
 
         for url in resourceURLs {
             do {
-                let content = try String(contentsOf: url)
+                let content = try String(contentsOf: url, encoding: .utf8)
                 let lines = content.components(separatedBy: .newlines)
 
                 for line in lines {
