@@ -11,10 +11,14 @@ WWDC25 [Record, replay, and review: UI automation with Xcode](https://developer.
 
 ## Run Test
 ```bash
+# Run Test
 xcodebuild test \
   -scheme LoginTests \
   -destination 'platform=iOS Simulator,name=iPhone 16,OS=26.0' \
   -resultBundlePath TestResults.xcresult
+
+# Open Test Report
+open TestResults.xcresult
 ```
 
 ## 🎙 What’s New (as of June 2025)
