@@ -3,6 +3,11 @@
 WWDC25 [Record, replay, and review: UI automation with Xcode](https://developer.apple.com/videos/play/wwdc2025/344/)<br>
 [![Watch the video](https://img.youtube.com/vi/TI-XF0M8Ge0/0.jpg)](https://www.youtube.com/watch?v=TI-XF0M8Ge0)
 
+Demo Run Test on XCODE<br>
+[![Watch the video](https://i9.ytimg.com/vi_webp/DwP3h2tD8wY/mq2.webp?sqp=COy4u8IG-oaymwEmCMACELQB8quKqQMa8AEB-AHYB4AC0AWKAgwIABABGF4gXiheMA8=&rs=AOn4CLDyh7hEIjQ4LgR4G7OA7NClDyHytQ)](https://www.youtube.com/watch?v=DwP3h2tD8wY)
+
+Demo XCTest Test Record Code Generation<br>
+[![Watch the video](https://i9.ytimg.com/vi/6LxEXGsLqgc/mq2.jpg?sqp=CMS9u8IG-oaymwEmCMACELQB8quKqQMa8AEB-AGOBYAC4AOKAgwIABABGGUgXyhMMA8=&rs=AOn4CLAFqiNwFhYT6un3flZLuyvFl6SLPQ)](https://www.youtube.com/watch?v=6LxEXGsLqgc)
 
 ## Folder Structure 
 - `App`: Main application project folder
