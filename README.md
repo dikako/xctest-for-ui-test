@@ -9,6 +9,14 @@ WWDC25 [Record, replay, and review: UI automation with Xcode](https://developer.
 - `pocTest`: Contains unit tests for verifying individual components and logic
 - `pocUITests`: Contains end-to-end UI tests, **maintained by the QA team**, for functional testing of the user interface
 
+## Run Test
+```bash
+xcodebuild test \
+  -scheme LoginTests \
+  -destination 'platform=iOS Simulator,name=iPhone 16,OS=26.0' \
+  -resultBundlePath TestResults.xcresult
+```
+
 ## 🎙 What’s New (as of June 2025)
 ### 1. Record Your Interactions
 - You can now record UI flows directly within Xcode. With the test cursor placed inside an XCTest UI method, click **“Start Recording”** in the gutter.
