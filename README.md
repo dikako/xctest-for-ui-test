@@ -5,9 +5,13 @@ WWDC25 [Record, replay, and review: UI automation with Xcode](https://developer.
 
 
 ## Folder Structure 
-- `poc`: Main application project folder
-- `pocTest`: Contains unit tests for verifying individual components and logic
-- `pocUITests`: Contains end-to-end UI tests, **maintained by the QA team**, for functional testing of the user interface
+- `App`: Main application project folder
+- `AppTests`: Contains unit tests for verifying individual components and logic
+- `AppUITests`: Contains end-to-end UI tests, **maintained by the QA team**, for functional testing of the user interface
+  - `Elements`: Contains element locators defined in `.properties` files
+  - `Helpers`: Utility/helper classes for reusable methods
+  - `Pages`: Page classes that represent screens or views in the application
+  - `Tests`: Test classes containing test scenarios and validations
 
 ## Run Test
 ```bash
