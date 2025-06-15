@@ -30,19 +30,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A831ED4B2DF9C69F004B4B53 /* poc */ = {
+		A831ED4B2DF9C69F004B4B53 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = poc;
+			path = App;
 			sourceTree = "<group>";
 		};
-		A831ED592DF9C6A1004B4B53 /* pocTests */ = {
+		A831ED592DF9C6A1004B4B53 /* AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = pocTests;
+			path = AppTests;
 			sourceTree = "<group>";
 		};
-		A8859CCF2DF9D03300E7835B /* pocUITests */ = {
+		A8859CCF2DF9D03300E7835B /* AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = pocUITests;
+			path = AppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		A831ED402DF9C69F004B4B53 = {
 			isa = PBXGroup;
 			children = (
-				A831ED4B2DF9C69F004B4B53 /* poc */,
-				A831ED592DF9C6A1004B4B53 /* pocTests */,
-				A8859CCF2DF9D03300E7835B /* pocUITests */,
+				A831ED4B2DF9C69F004B4B53 /* App */,
+				A831ED592DF9C6A1004B4B53 /* AppTests */,
+				A8859CCF2DF9D03300E7835B /* AppUITests */,
 				A831ED4A2DF9C69F004B4B53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A831ED4B2DF9C69F004B4B53 /* poc */,
+				A831ED4B2DF9C69F004B4B53 /* App */,
 			);
 			name = poc;
 			packageProductDependencies = (
@@ -131,7 +131,7 @@
 				A831ED582DF9C6A1004B4B53 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A831ED592DF9C6A1004B4B53 /* pocTests */,
+				A831ED592DF9C6A1004B4B53 /* AppTests */,
 			);
 			name = pocTests;
 			packageProductDependencies = (
@@ -154,7 +154,7 @@
 				A8859CD52DF9D03300E7835B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A8859CCF2DF9D03300E7835B /* pocUITests */,
+				A8859CCF2DF9D03300E7835B /* AppUITests */,
 			);
 			name = pocUITests;
 			packageProductDependencies = (
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A831ED442DF9C69F004B4B53 /* Build configuration list for PBXProject "poc" */;
+			buildConfigurationList = A831ED442DF9C69F004B4B53 /* Build configuration list for PBXProject "UIXCTest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A831ED442DF9C69F004B4B53 /* Build configuration list for PBXProject "poc" */ = {
+		A831ED442DF9C69F004B4B53 /* Build configuration list for PBXProject "UIXCTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A831ED682DF9C6A1004B4B53 /* Debug */,
